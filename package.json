@@ -1,0 +1,38 @@
+{
+  "name": "nbpWeChatPay",
+  "description":"WeChat payment interface for NBP",
+  "version": "0.0.1",
+  "keywords": [
+    "WeChat",
+    "Payment"
+  ],
+  "maintainers":[
+    {
+      "name": "zhao",
+      "email": "zhao423email@gmail.com",
+      "web": ""
+    }
+  ],
+  "contributors":[
+    {
+      "name": "zhao",
+      "email": "zhao423email@gmail.com",
+      "web": ""
+    }
+  ],
+  "bugs":{
+    "url":""
+  },
+  "licenses": "MIT",
+  "repositories": [
+    {
+      "type": "git",
+      "url": ""
+    }
+  ],
+  "dependencies":{
+    "xml2js":"*",
+    "request":"*",
+    "md5":"*"
+  }
+}
