@@ -104,12 +104,12 @@ var router = express.Router();
 var wxpay = require('nbpWeChatPay');
 
 // 原生支付回调
-router.use('/weixinpay/native/callback', wechatpay.useWXCallback(function(msg, req, res, next){
+router.use('/weixinpay/native/callback', wechatpay.useWeChatCallback(function(msg, req, res, next){
 	// msg: 微信回调发送的数据
 }));
 
 // 支付结果异步通知
-router.use('/weixinpay/notify', wechatpay.useWXCallback(function(msg, req, res, next){
+router.use('/weixinpay/notify', wechatpay.useWeChatCallback(function(msg, req, res, next){
 	// 处理商户业务逻辑
 
     // res.success() 向微信返回处理成功信息，res.fail()返回失败信息。
